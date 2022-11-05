@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { observable as Symbol_observable } from '../symbol/observable';\n/** Identifies an input as being Observable (but not necessary an Rx Observable) */\n\nexport function isObservable(input) {\n  return input && typeof input[Symbol_observable] === 'function';\n} //# sourceMappingURL=isObservable.js.map","map":null,"metadata":{},"sourceType":"module"}

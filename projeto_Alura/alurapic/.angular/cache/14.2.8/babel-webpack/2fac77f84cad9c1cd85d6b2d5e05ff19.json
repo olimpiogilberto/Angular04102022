@@ -1,0 +1,1 @@
+{"ast":null,"code":"/**\n * Throws an error on another job so that it's picked up by the runtime's\n * uncaught error handling mechanism.\n * @param err the error to throw\n */\nexport function hostReportError(err) {\n  setTimeout(() => {\n    throw err;\n  });\n} //# sourceMappingURL=hostReportError.js.map","map":null,"metadata":{},"sourceType":"module"}
